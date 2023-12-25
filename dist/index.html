@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Rohan Tiwari</title>
 </head>
 <body class="w-100 bg-slate-950">
     <!-- Navigation Starts here -->
@@ -28,8 +28,8 @@
         </div>
         <ul class="flex font-bold list-none text-xl font-sans">
             <li><a href="#" class=" cursor-pointer mx-[20px] text-white no-underline text-xl">Home</a></li>
-            <li><a href="#" class="cursor-pointer mx-[20px] text-white no-underline">About</a></li>
-            <li><a href="#" class="cursor-pointer mx-[20px] text-white no-underline">Experience</a></li>
+            <li><a href="#ABOUT" class="cursor-pointer mx-[20px] text-white no-underline">About</a></li>
+            <li><a href="#Exp" class="cursor-pointer mx-[20px] text-white no-underline">Experience</a></li>
         </ul>
         <div>
             <a class="bg-blue-600 p-3 rounded-xl text-white no-underline font-sans font-bold text-lg" href="#">RESUME</a>
@@ -40,8 +40,8 @@
     <!-- Main body / HOME page starts here -->
 
     <div class="w-100 pt-4">
-        <div class="w-70 flex flex-col md:flex-row justify-start items-center md:items-center space-x-4">
-            <div class="h-full  self-center p-10 mx-16">
+        <div class="w-70 flex flex-col md:flex-row md:justify-start justify-between items-center md:items-center space-x-4">
+            <div class="h-full  self-center p-4 mx-16">
                 <img class="w-72 h-auto items-center" src="../asset/picofme3.png" alt="MyProfile">
             </div>
             <div class="h-full items-center p-10">
@@ -54,14 +54,18 @@
         </div>
     </div>
     <!-- Main body / HOME page ends here -->
-    <div class=" w-100 flex flex-col ">
-        <div class="">
+
+    <!-- ABOUT Section starts here -->
+    <div class=" w-100 flex flex-col">
+
+        <div class="" id="ABOUT">
             <p class="text-center text-yellow-400 font-extrabold font-sans text-3xl">
                 ABOUT
             </p>
         </div>
-        <div class="flex flex-col justify-evenly md:flex-row ">
-            <div class="w-80 bg-white mx-4 p-3 items-center rounded-2xl">
+        <div class="flex flex-col self-center justify-between md:flex-row">
+            <!-- SINGLE CARD OF CHILDHOOD -->
+            <div class="group w-80 bg-white mx-4 p-3 items-center rounded-2xl my-2">
                 <div>
                     <img class="w-full rounded-xl" src="../asset/haldwani.jpeg" alt="">
                 </div>
@@ -71,7 +75,8 @@
                     It was full of lifelong experiences and learnings with my parents and surroundings</p>
                 </div>
             </div>
-            <div class="w-80 bg-white mx-4 p-3 rounded-2xl items-center">
+            <!-- SINGLE CARD OF CHILDHOOD -->
+            <div class="w-80 bg-white mx-4 p-3 rounded-2xl items-center my-2">
                 <div>
                     <img class=" w-full rounded-xl" src="../asset/school.jpg" alt="">
                 </div>
@@ -82,18 +87,54 @@
                      </p>
                 </div>
             </div>
-            <div class="w-80 bg-white mx-4 p-3 rounded-2xl items-center">
+            <div class="w-80 bg-white mx-4 p-3 rounded-2xl items-center my-2">
                 <div>
                     <img class=" w-full rounded-xl" src="../asset/dituniversity.jpg" alt="">
                 </div>
                 <div>
                     <h1 class="text-center text-yellow-400 font-bold font-sans">COLLEGE</h1>
-                    <p class="font-sans text-sm text-center font-semibold">I was born in 2004 in Haldwani and Spent a major part of life till now there only.<br>
-                    It was full of lifelong experiences and learnings with my parents and surroundings</p>
+                    <p class="font-sans text-sm text-center font-semibold">I took admision in DIT University, Dehradun and started my journy of engineering here by.<br>
+                    Till now it has been sin graph with acadmics and skills.</p>
                 </div>
             </div>
         </div>
-        
     </div>
+    <!-- ABOUT Section ends here -->
+
+    <!-- EXPERIENCE Section starts here -->
+    <div class="w-100 p-3">
+        <div class="" id="Exp">
+            <p class="text-center text-yellow-400 font-extrabold font-sans text-3xl">
+                EXPERIENCE
+            </p>
+        </div>
+        <div class="flex flex-col md:flex-row items-center justify-between md:justify-center">
+            <div class="group w-80 bg-white mx-4 p-3 items-center rounded-2xl my-2">
+                <div>
+                    <img class="w-full rounded-xl" src="../asset/onCampus.png" alt="">
+                </div>
+                <div>
+                    <h1 class="text-center text-yellow-400 font-bold font-sans">CORE Member</h1>
+                    <h1 class="font-sans text-lg text-center font-bold">SEP-2023 - Present</h1>
+                    <p class="font-sans text-sm text-center font-semibold">I signed up for onCampus to learn about open source and development.<br>I met like-minded people and picked up a lot about Git and GitHub. During HacktoberFest-2023, I contributed to their projects and learned even more.</p>
+                </div>
+            </div>  
+            <div class="group w-80 bg-white mx-4 p-3 items-center rounded-2xl my-2">
+                <div>
+                    <img class="w-full rounded-xl" src="../asset/GDSC.jpg" alt="">
+                </div>
+                <div>
+                    <h1 class="text-center text-yellow-400 font-bold font-sans">Member</h1>
+                    <h1 class="font-sans text-lg text-center font-bold">SEP-2023 - Present</h1>
+                    <p class="font-sans text-sm text-center font-semibold">
+                        I joined GDSC to contribute to projects while learning, and I connected with people to discuss various projects.<br>
+                        I secured the top rank in the GDSC-organized contest and actively participated in the various events they hosted.
+                    </p>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <!-- EXPERIENCE Section ends here -->
+
 </body>
 </html>
