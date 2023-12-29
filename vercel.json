@@ -1,6 +1,7 @@
 {
   "redirects": [
     {
+      "source": "/view-source",
       "destination": "/dist/index.html"
     }
   ]
