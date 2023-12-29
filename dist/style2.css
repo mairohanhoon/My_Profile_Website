@@ -1,0 +1,16 @@
+.myscale:hover{
+    transform: scale(1.025);
+}
+
+.myscale1:hover{
+    transform: scale(1.05);
+}
+
+.fonthead{
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Carattere', cursive;
+}
+
+.butresume:hover{
+    transform: scale(1.05);
+}

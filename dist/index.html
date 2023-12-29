@@ -4,35 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Carattere&display=swap');
+        </style>
+        
+    <link rel="stylesheet" href="style2.css">
     <title>Rohan Tiwari</title>
 </head>
 <body class="w-100 bg-slate-950">
     <!-- Navigation Starts here -->
     <nav class="w-100 flex justify-between px-4 items-center">
         <div class="flex">
-            <div>
+            <div class="myscale1">
                 <a href="https://www.linkedin.com/in/rohan-tiwarii/" target="_blank">
                     <img class="w-12 h-12 pr-4" src="../asset/linkedin_logo.png" alt="">
                 </a>
             </div>
-            <div>
-                <a href="https://www.linkedin.com/in/rohan-tiwarii/">
+            <div class="myscale1">
+                <a href="https://github.com/mairohanhoon" target="_blank">
                     <img class="w-12 h-12 pr-4" src="../asset/github_logo.png" alt="">
                 </a>
             </div>
-            <div>
-                <a href="https://www.linkedin.com/in/rohan-tiwarii/">
+            <div class="myscale1">
+                <a href="https://leetcode.com/rohantiwari2709/" target="_blank">
                     <img class="w-12 h-12 pr-4" src="../asset/leetcode_logo.png" alt="">
                 </a>
             </div>
+            <div class="myscale1">
+                <a href="https://codeforces.com/profile/tiwarirohan" target="_blank">
+                    <img class="w-12 h-12 pr-4" src="../asset/codeforces_log.png" alt="">
+                </a>
+            </div>
         </div>
-        <ul class="flex font-bold list-none text-xl font-sans">
-            <li><a href="#" class=" cursor-pointer mx-[20px] text-white no-underline text-xl">Home</a></li>
-            <li><a href="#ABOUT" class="cursor-pointer mx-[20px] text-white no-underline">About</a></li>
-            <li><a href="#Exp" class="cursor-pointer mx-[20px] text-white no-underline">Experience</a></li>
+        <ul class="md:flex hidden font-bold list-none text-xl font-sans">
+            <li class="myscale1"><a href="#" class="cursor-pointer mx-[20px] text-white no-underline text-xl">Home</a></li>
+            <li class="myscale1"><a href="#ABOUT" class="cursor-pointer mx-[20px] text-white no-underline">About</a></li>
+            <li class="myscale1"><a href="#Exp" class="cursor-pointer mx-[20px] text-white no-underline">Experience</a></li>
         </ul>
-        <div>
-            <a class="bg-blue-600 p-3 rounded-xl text-white no-underline font-sans font-bold text-lg" href="#">RESUME</a>
+        <div class="butresume ">
+            <a class="bg-blue-600 p-3 rounded-xl text-white no-underline font-sans font-bold text-lg hover:bg-blue-800 hover:border-white" href="../asset/Resume.pdf" download="RohanTiwari">RESUME</a>
         </div>
     </nav>
     <!-- Navigation Ends here -->
@@ -42,10 +52,10 @@
     <div class="w-100 pt-4">
         <div class="w-70 flex flex-col md:flex-row md:justify-start justify-between items-center md:items-center space-x-4">
             <div class="h-full  self-center p-4 mx-16">
-                <img class="w-72 h-auto items-center" src="../asset/picofme3.png" alt="MyProfile">
+                <img class="w-80 h-auto items-center" src="../asset/picofme3.png" alt="MyProfile">
             </div>
             <div class="h-full items-center p-10">
-                <h1 class="text-yellow-400 font-bold font-sans text-4xl text-center">Hello I am Rohan Tiwari</h1>
+                <h1 class="text-yellow-400 font-bold font-sans text-4xl text-center">Hello <span><img class="w-10 self-center items-center" src="../asset/handwaving.png" alt=""></span> I am Rohan Tiwari</h1>
                 <p class="text-white font-bold font-sans text-xl text-center">
                     I'm a Passionate for Problem Solving and Learning Competitive Programming & Development from India 🇮🇳<br></p>
                     <p class="text-white font-bold font-sans text-base text-center">
@@ -65,7 +75,7 @@
         </div>
         <div class="flex flex-col self-center justify-between md:flex-row">
             <!-- SINGLE CARD OF CHILDHOOD -->
-            <div class="group w-80 bg-white mx-4 p-3 items-center rounded-2xl my-2">
+            <div class="group w-80 bg-white mx-4 p-3 items-center rounded-2xl my-2 myscale">
                 <div>
                     <img class="w-full rounded-xl" src="../asset/haldwani.jpeg" alt="">
                 </div>
@@ -76,7 +86,7 @@
                 </div>
             </div>
             <!-- SINGLE CARD OF CHILDHOOD -->
-            <div class="w-80 bg-white mx-4 p-3 rounded-2xl items-center my-2">
+            <div class="w-80 bg-white mx-4 p-3 rounded-2xl items-center my-2 myscale">
                 <div>
                     <img class=" w-full rounded-xl" src="../asset/school.jpg" alt="">
                 </div>
@@ -87,7 +97,7 @@
                      </p>
                 </div>
             </div>
-            <div class="w-80 bg-white mx-4 p-3 rounded-2xl items-center my-2">
+            <div class="w-80 bg-white mx-4 p-3 rounded-2xl items-center my-2 myscale">
                 <div>
                     <img class=" w-full rounded-xl" src="../asset/dituniversity.jpg" alt="">
                 </div>
@@ -109,7 +119,7 @@
             </p>
         </div>
         <div class="flex flex-col md:flex-row items-center justify-between md:justify-center">
-            <div class="group w-80 bg-white mx-4 p-3 items-center rounded-2xl my-2">
+            <div class="group w-80 bg-white mx-4 p-3 items-center rounded-2xl my-2 myscale">
                 <div>
                     <img class="w-full rounded-xl" src="../asset/onCampus.png" alt="">
                 </div>
@@ -119,7 +129,7 @@
                     <p class="font-sans text-sm text-center font-semibold">I signed up for onCampus to learn about open source and development.<br>I met like-minded people and picked up a lot about Git and GitHub. During HacktoberFest-2023, I contributed to their projects and learned even more.</p>
                 </div>
             </div>  
-            <div class="group w-80 bg-white mx-4 p-3 items-center rounded-2xl my-2">
+            <div class=" w-80 bg-white mx-4 p-3 items-center rounded-2xl my-2 myscale">
                 <div>
                     <img class="w-full rounded-xl" src="../asset/GDSC.jpg" alt="">
                 </div>
@@ -135,6 +145,64 @@
         </div>
     </div>
     <!-- EXPERIENCE Section ends here -->
+
+    <!-- TECH STACK start here -->
+    <div class="w-100 ">
+        <div class="" >
+            <p class="text-center text-yellow-400 font-extrabold font-sans text-3xl">
+                TECH-STACK
+            </p>
+        </div>
+        <div class="items-center place-items-center flex flex-wrap justify-center">
+            <div class="myscale">
+                <img class="w-28" src="../asset/c.png" alt="">
+            </div>
+            <div class="myscale">
+                <img class="w-28" src="../asset/cpp.png" alt="">
+            </div>
+            <div class="myscale">
+                <img class="w-28" src="../asset/html.png" alt="">
+            </div>
+            <div class="myscale">
+                <img class="w-28" src="../asset/css.png" alt="">
+            </div>
+            <div class="myscale">
+                <img class="w-28" src="../asset/tailwind.png" alt="">
+            </div>
+            <div class="myscale">
+                <img class="w-28" src="../asset/java.png" alt="">
+            </div>
+            <div class="myscale">
+                <img class="w-28" src="../asset/js.png" alt="">
+            </div>
+            <div class="myscale">
+                <img class="w-28" src="../asset/gitlogo.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- TECH STACK ends here -->
+
+    <!-- FOOTER starts here -->
+    <footer class="w-100 items-center pt-1 bg-gray-800">
+        <h1 class="fonthead text-center text-white text-6xl md:text-8xl">! Thanks for Visiting !</h1>
+        <div class="md:flex justify-center">
+            <div class="w-100 flex place-items-center justify-center mx-3">
+                <img src="../asset/github.png" alt="githublogo" class="w-12"> 
+                <p class="text-xl mx-2 text-white font-sans font-semibold">  mairohanhoon</p>
+            </div>
+
+            <div class="w-100 flex place-items-center justify-center mx-3">
+                <img src="../asset/linkedin.png" alt="linkedinlogo" class="w-12"> 
+                <p class="text-xl mx-2 text-white font-sans font-semibold">  rohan-tiwarii</p>
+            </div>
+
+            <div class="w-100 flex place-items-center justify-center mx-3">
+                <img src="../asset/mail.png" alt="maillogo" class="w-12"> 
+                <p class="text-xl mx-2 text-white font-sans font-semibold">  @rohantiwari2709</p>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER ends here -->
 
 </body>
 </html>
