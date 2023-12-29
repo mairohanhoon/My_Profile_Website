@@ -1,0 +1,7 @@
+{
+  "redirects": [
+    {
+      "destination": "/dist/index.html"
+    }
+  ]
+}
