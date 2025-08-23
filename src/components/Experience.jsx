@@ -13,7 +13,7 @@ const Experience = () => {
         <div className="group w-80 bg-white/10 backdrop-blur-md border border-white/20 shadow-lg mx-4 p-4 rounded-2xl my-2 transition-transform duration-300 hover:scale-[1.03]">
           <img
             className="w-full rounded-xl"
-            src="https://raw.githubusercontent.com/mairohanhoon/My_Profile_Website/main/asset/onCampus.png"
+            src="https://avatars.githubusercontent.com/u/116508440?s=200&v=4"
           />
           <h1 className="text-center text-white font-extrabold mt-3">
             CORE MEMBER
@@ -30,7 +30,7 @@ const Experience = () => {
         <div className="w-80 bg-white/10 backdrop-blur-md border border-white/20 shadow-lg mx-4 p-4 rounded-2xl my-2 transition-transform duration-300 hover:scale-[1.03]">
           <img
             className="w-full rounded-xl"
-            src="https://raw.githubusercontent.com/mairohanhoon/My_Profile_Website/main/asset/GDSC.jpg"
+            src="https://media.licdn.com/dms/image/v2/D4D0BAQEAIunGD8oJEA/company-logo_200_200/company-logo_200_200/0/1694235085053?e=1758758400&v=beta&t=4Xk69rWilEYy_fWoHyZicZMvOFtszV-DVS4OQvOozAc"
           />
           <h1 className="text-center text-white font-extrabold mt-3">MEMBER</h1>
           <p className="text-sm text-center text-white font-semibold mt-2">
